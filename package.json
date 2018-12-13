@@ -1,0 +1,22 @@
+{
+  "name": "jsutil",
+  "version": "1.0.0",
+  "description": "kinoheld generic js utils",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kinoheld/jsUtil.git"
+  },
+  "author": "kinoheld",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kinoheld/jsUtil/issues"
+  },
+  "homepage": "https://github.com/kinoheld/jsUtil#readme",
+  "dependencies": {
+    "lodash": "^4.17.11"
+  }
+}
