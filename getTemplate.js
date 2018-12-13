@@ -1,5 +1,4 @@
 import lodashTemplate from 'lodash/template';
-const DataLayer = require('./../services/data-layer/data-layer.js');
 
 /**
  * Returns the template
@@ -13,7 +12,7 @@ function getTemplate(templateId, imports = {}) {
 
   if ($domTemplate) {
     template = lodashTemplate($domTemplate.innerHTML, {
-      imports: Object.assign({}, { DataLayer }, imports),
+      imports: Object.assign({}, imports),
     });
   }
 
