@@ -1,4 +1,4 @@
-import getParams from '~/getParams';
+import getParams from './getParams';
 
 /**
  * Returns an object containg all widget parameters from the given url.
