@@ -4,10 +4,8 @@
  * @param {*} subject
  * @param {number} fallback
  */
-function parseValue(subject, fallback = 0) {
+export default function parseValue(subject, fallback = 0) {
   const parsedSubject = parseInt(subject, 10);
 
   return isNaN(parsedSubject) ? fallback : parsedSubject;
 }
-
-export { parseValue };

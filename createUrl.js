@@ -7,7 +7,7 @@
  * @param {Boolean} convertBooleans
  * @return {String}
  */
-function createUrl(url, params = {}, convertBooleans = false) {
+export default function createUrl(url, params = {}, convertBooleans = false) {
   const urlParams = Object.keys(params).map(key => {
     let value = params[key];
 
@@ -20,5 +20,3 @@ function createUrl(url, params = {}, convertBooleans = false) {
 
   return `${url}${url.includes('?') ? '&' : '?'}${urlParams.join('&')}`;
 }
-
-export { createUrl };

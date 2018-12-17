@@ -6,7 +6,7 @@
  * @param {String} content
  * @return {HTMLElement}
  */
-function createElement(type, attributes = {}, content = '') {
+export default function createElement(type, attributes = {}, content = '') {
   const $element = document.createElement(type);
 
   Object.keys(attributes).forEach(attribute => {
@@ -19,5 +19,8 @@ function createElement(type, attributes = {}, content = '') {
 
   return $element;
 }
+<<<<<<< Updated upstream
 
 export { createElement };
+=======
+>>>>>>> Stashed changes

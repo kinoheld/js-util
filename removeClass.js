@@ -4,7 +4,11 @@
  * @param {String} cssClassString
  * @param {Boolean} condition
  */
-function removeClass($elements = [], cssClassString = '', condition = true) {
+export default function removeClass(
+  $elements = [],
+  cssClassString = '',
+  condition = true
+) {
   const cssClasses = cssClassString.split(' ');
 
   if (!$elements || !cssClasses.length) {
@@ -26,5 +30,3 @@ function removeClass($elements = [], cssClassString = '', condition = true) {
     }
   });
 }
-
-export { removeClass };

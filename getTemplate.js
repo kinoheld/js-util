@@ -6,7 +6,7 @@ import lodashTemplate from 'lodash/template';
  * @param {Object} imports
  * @return {Function}
  */
-function getTemplate(templateId, imports = {}) {
+export default function getTemplate(templateId, imports = {}) {
   const $domTemplate = document.getElementById(templateId);
   let template = null;
 
@@ -18,5 +18,3 @@ function getTemplate(templateId, imports = {}) {
 
   return template;
 }
-
-export { getTemplate };

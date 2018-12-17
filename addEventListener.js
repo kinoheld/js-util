@@ -7,7 +7,12 @@
  * @param {Object} context
  * @return {Integer}
  */
-function addEventListener($element, event, callback, context = null) {
+export default function addEventListener(
+  $element,
+  event,
+  callback,
+  context = null
+) {
   let bound = 0;
 
   if ($element && event && typeof callback === 'function') {
@@ -26,5 +31,3 @@ function addEventListener($element, event, callback, context = null) {
 
   return bound;
 }
-
-export { addEventListener };

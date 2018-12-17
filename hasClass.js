@@ -6,7 +6,7 @@
  * @param {String} cssClassString
  * @return {Boolean}
  */
-function hasClass($element = null, cssClassString = '') {
+export default function hasClass($element = null, cssClassString = '') {
   const elementClasses = [...$element.classList];
   const cssClasses = cssClassString.split(' ');
   let found = false;
@@ -17,5 +17,3 @@ function hasClass($element = null, cssClassString = '') {
 
   return found;
 }
-
-export { hasClass };

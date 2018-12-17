@@ -3,7 +3,7 @@
  * @param {String} url
  * @return {Object}
  */
-function getParams(url) {
+export default function getParams(url) {
   if (!url.includes('?')) {
     return {};
   }
@@ -18,5 +18,3 @@ function getParams(url) {
       return params;
     }, {});
 }
-
-export { getParams };

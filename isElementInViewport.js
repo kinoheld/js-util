@@ -3,7 +3,11 @@
  * @param {HTMLElement}
  * @return {Boolean}
  */
-function isElementInViewport($element, offsetY = 0, offsetX = 0) {
+export default function isElementInViewport(
+  $element,
+  offsetY = 0,
+  offsetX = 0
+) {
   if (!$element || typeof $element.getBoundingClientRect !== 'function') {
     return false;
   }
@@ -19,5 +23,3 @@ function isElementInViewport($element, offsetY = 0, offsetX = 0) {
       (window.innerWidth || document.documentElement.clientWidth) + offsetX
   );
 }
-
-export { isElementInViewport };

@@ -3,8 +3,6 @@
  * @param {Array} list
  * @return {Array}
  */
-function flattenArray(list) {
+export default function flattenArray(list) {
   list.reduce((a, b) => a.concat(Array.isArray(b) ? flattenArray(b) : b), []);
 }
-
-export { flattenArray };

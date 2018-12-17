@@ -4,7 +4,7 @@
  * @param {HTMLElement} $element
  * @return {Object}
  */
-function getOffset($element) {
+export default function getOffset($element) {
   const bodyScrollTop =
     window.pageYOffset || document.documentElement.scrollTop;
   const bodyScrollLeft =
@@ -16,5 +16,3 @@ function getOffset($element) {
     left: elemRect.left + bodyScrollLeft,
   };
 }
-
-export { getOffset };

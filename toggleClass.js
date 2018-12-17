@@ -8,7 +8,11 @@ import hasClass from './hasClass';
  * @param {String} cssClass
  * @param {Boolean} condition
  */
-function toggleClass($elements = [], cssClass = '', condition = undefined) {
+export default function toggleClass(
+  $elements = [],
+  cssClass = '',
+  condition = undefined
+) {
   if (!$elements || !cssClass) {
     return;
   }
@@ -30,5 +34,3 @@ function toggleClass($elements = [], cssClass = '', condition = undefined) {
     }
   });
 }
-
-export { toggleClass };

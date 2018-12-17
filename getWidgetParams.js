@@ -5,7 +5,7 @@ import getParams from './getParams';
  * @param {String} url
  * @return {Object}
  */
-function getWidgetParams(url) {
+export default function getWidgetParams(url) {
   const allowedKeys = [
     'ref', // referrer
     'mode', // mode=widget
@@ -45,5 +45,3 @@ function getWidgetParams(url) {
       return obj;
     }, {});
 }
-
-export { getWidgetParams };

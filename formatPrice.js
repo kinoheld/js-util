@@ -3,10 +3,8 @@
  * @param {Number} value
  * @return {String}
  */
-function formatPrice(value) {
+export default function formatPrice(value) {
   return value && !isNaN(value)
     ? `${String(value.toFixed(2)).replace('.', ',')} €`
     : '';
 }
-
-export { formatPrice };

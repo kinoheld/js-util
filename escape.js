@@ -6,8 +6,6 @@ import lodashEscape from 'lodash/escape';
  * @param {String} value
  * @return {String}
  */
-function escape(value) {
+export default function escape(value) {
   return lodashEscape(value);
 }
-
-export { escape };

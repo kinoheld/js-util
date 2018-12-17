@@ -7,7 +7,7 @@
  * @param {HTMLElement} $element
  * @param {object}
  */
-function getDataAttributes($element) {
+export default function getDataAttributes($element) {
   const attributes = [];
 
   if ($element && $element.attributes) {
@@ -31,5 +31,3 @@ function getDataAttributes($element) {
 
   return attributes;
 }
-
-export { getDataAttributes };

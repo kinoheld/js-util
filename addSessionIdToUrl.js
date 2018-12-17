@@ -5,12 +5,10 @@
  * @param {String} sessionId
  * @return {String}
  */
-function addSessionIdToUrl(url, sessionId = '') {
+export default function addSessionIdToUrl(url, sessionId = '') {
   if (sessionId) {
     return `${url}${url.includes('?') ? '&' : '?'}sessid=${sessionId}`;
   }
 
   return url;
 }
-
-export { addSessionIdToUrl };

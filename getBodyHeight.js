@@ -2,8 +2,6 @@
  * Returns the current body height
  * @return {Number}
  */
-function getBodyHeight() {
+export default function getBodyHeight() {
   return document.body.offsetHeight;
 }
-
-export { getBodyHeight };

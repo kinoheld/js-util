@@ -4,10 +4,8 @@
  * @param {HTMLElement} $context
  * @return {HTMLElement}
  */
-function getChild(query = '', $context = document) {
+export default function getChild(query = '', $context = document) {
   return $context === document || $context instanceof HTMLElement
     ? $context.querySelector(query)
     : null;
 }
-
-export { getChild };

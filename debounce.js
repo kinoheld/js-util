@@ -7,8 +7,6 @@ import lodashDebounce from 'lodash/debounce';
  * @param {Object} options The options object.
  * @return {Function}
  */
-function debounce(func, wait = 0, options = {}) {
+export default function debounce(func, wait = 0, options = {}) {
   return lodashDebounce(func, wait, options);
 }
-
-export { debounce };

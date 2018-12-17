@@ -5,7 +5,7 @@
  * @param {Object} params
  * @return {HTMLElement}
  */
-function renderTemplate(template, params = {}) {
+export default function renderTemplate(template, params = {}) {
   let $renderedNode = null;
 
   if (template && typeof template === 'function') {
@@ -17,5 +17,3 @@ function renderTemplate(template, params = {}) {
 
   return $renderedNode;
 }
-
-export { renderTemplate };

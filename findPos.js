@@ -4,12 +4,10 @@
  * @param {HTMLElement} $element
  * @return {Number}
  */
-function findPos($element) {
+export default function findPos($element) {
   const bodyScrollTop =
     window.pageYOffset || document.documentElement.scrollTop;
   const elemRect = $element.getBoundingClientRect();
 
   return elemRect.top + bodyScrollTop;
 }
-
-export { findPos };

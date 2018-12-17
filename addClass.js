@@ -4,7 +4,11 @@
  * @param {String} cssClassString
  * @param {Boolean} condition
  */
-function addClass($elements = [], cssClassString = '', condition = true) {
+export default function addClass(
+  $elements = [],
+  cssClassString = '',
+  condition = true
+) {
   const cssClasses = cssClassString.split(' ');
 
   if (!$elements || !cssClasses.length) {
@@ -26,5 +30,3 @@ function addClass($elements = [], cssClassString = '', condition = true) {
     }
   });
 }
-
-export { addClass };

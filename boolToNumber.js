@@ -3,12 +3,10 @@
  * @param {*} value
  * @return {Number|*}
  */
-function boolToNumber(value) {
+export default function boolToNumber(value) {
   if (typeof value === 'boolean') {
     return value ? 1 : 0;
   }
 
   return value;
 }
-
-export { boolToNumber };

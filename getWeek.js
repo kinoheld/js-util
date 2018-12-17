@@ -3,7 +3,7 @@
  * @param {String} isoDay
  * @return {Number}
  */
-function getWeek(isoDay) {
+export default function getWeek(isoDay) {
   const date = new Date(isoDay);
   const week1 = new Date(date.getFullYear(), 0, 4);
 
@@ -20,5 +20,3 @@ function getWeek(isoDay) {
     )
   );
 }
-
-export { getWeek };

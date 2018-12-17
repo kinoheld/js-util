@@ -8,8 +8,6 @@ import lodashTimes from 'lodash/times';
  * @returns {Array} Returns the array of results.
  * @example
  */
-function times(n, iteratee) {
+export default function times(n, iteratee) {
   return lodashTimes(n, iteratee);
 }
-
-export { times };

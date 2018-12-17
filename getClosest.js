@@ -4,7 +4,7 @@
  * @param {String} query
  * @return {HTMLElement}
  */
-function getClosest($element = null, query) {
+export default function getClosest($element = null, query) {
   const matches = document.querySelectorAll(query);
   let i;
   let $el = $element;
@@ -18,5 +18,3 @@ function getClosest($element = null, query) {
 
   return $el;
 }
-
-export { getClosest };

@@ -7,8 +7,6 @@ import lodashThrottle from 'lodash/throttle';
  * @param {Object} options The options object.
  * @return {Function}
  */
-function throttle(func, wait = 0, options = {}) {
+export default function throttle(func, wait = 0, options = {}) {
   return lodashThrottle(func, wait, options);
 }
-
-export { throttle };

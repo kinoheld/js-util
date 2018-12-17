@@ -5,11 +5,9 @@
  * @param {String} keyField
  * @return {Object}
  */
-function arrayToObject(array, keyField) {
+export default function arrayToObject(array, keyField) {
   return array.reduce((obj, item) => {
     obj[item[keyField]] = item;
     return obj;
   }, {});
 }
-
-export { arrayToObject };

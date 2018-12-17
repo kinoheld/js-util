@@ -5,7 +5,7 @@
  * @param {String} needle
  * @return {Integer}
  */
-function getPosition($haystack, needle) {
+export default function getPosition($haystack, needle) {
   let index = -1;
 
   if ($haystack && needle) {
@@ -18,5 +18,3 @@ function getPosition($haystack, needle) {
 
   return index;
 }
-
-export { getPosition };

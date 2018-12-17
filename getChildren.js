@@ -4,10 +4,8 @@
  * @param {HTMLElement} $context
  * @return {NodeList}
  */
-function getChildren(query = '', $context = document) {
+export default function getChildren(query = '', $context = document) {
   return $context === document || $context instanceof HTMLElement
     ? $context.querySelectorAll(query)
     : [];
 }
-
-export { getChildren };
