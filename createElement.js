@@ -19,8 +19,3 @@ export default function createElement(type, attributes = {}, content = '') {
 
   return $element;
 }
-<<<<<<< Updated upstream
-
-export { createElement };
-=======
->>>>>>> Stashed changes
