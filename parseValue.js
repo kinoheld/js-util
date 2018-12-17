@@ -10,4 +10,4 @@ function parseValue(subject, fallback = 0) {
   return isNaN(parsedSubject) ? fallback : parsedSubject;
 }
 
-export default parseValue;
+export { parseValue };

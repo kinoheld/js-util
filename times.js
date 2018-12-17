@@ -12,4 +12,4 @@ function times(n, iteratee) {
   return lodashTimes(n, iteratee);
 }
 
-export default times;
+export { times };

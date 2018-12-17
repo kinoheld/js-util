@@ -32,4 +32,4 @@ function getDataAttributes($element) {
   return attributes;
 }
 
-export default getDataAttributes;
+export { getDataAttributes };

@@ -27,4 +27,4 @@ function addEventListener($element, event, callback, context = null) {
   return bound;
 }
 
-export default addEventListener;
+export { addEventListener };

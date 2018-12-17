@@ -39,7 +39,7 @@ import toggleClass from '~/toggleClass';
 import triggerEvent from '~/triggerEvent';
 import uniqueId from '~/uniqueId';
 
-export default {
+export {
   addClass,
   addEventListener,
   addSessionIdToUrl,

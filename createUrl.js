@@ -8,7 +8,7 @@
  * @return {String}
  */
 function createUrl(url, params = {}, convertBooleans = false) {
-  const urlParams = Object.keys(params).map((key) => {
+  const urlParams = Object.keys(params).map(key => {
     let value = params[key];
 
     if (convertBooleans && (value === true || value === false)) {
@@ -21,4 +21,4 @@ function createUrl(url, params = {}, convertBooleans = false) {
   return `${url}${url.includes('?') ? '&' : '?'}${urlParams.join('&')}`;
 }
 
-export default createUrl;
+export { createUrl };

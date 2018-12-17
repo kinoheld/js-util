@@ -11,4 +11,4 @@ function boolToNumber(value) {
   return value;
 }
 
-export default boolToNumber;
+export { boolToNumber };

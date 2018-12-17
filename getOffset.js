@@ -17,4 +17,4 @@ function getOffset($element) {
   };
 }
 
-export default getOffset;
+export { getOffset };

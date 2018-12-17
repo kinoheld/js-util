@@ -8,4 +8,4 @@ function arrayUnique(array) {
   return array.filter((elem, pos, arr) => arr.indexOf(elem) === pos);
 }
 
-export default arrayUnique;
+export { arrayUnique };

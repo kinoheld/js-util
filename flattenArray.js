@@ -7,4 +7,4 @@ function flattenArray(list) {
   list.reduce((a, b) => a.concat(Array.isArray(b) ? flattenArray(b) : b), []);
 }
 
-export default flattenArray;
+export { flattenArray };

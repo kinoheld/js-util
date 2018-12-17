@@ -20,4 +20,4 @@ function isElementInViewport($element, offsetY = 0, offsetX = 0) {
   );
 }
 
-export default isElementInViewport;
+export { isElementInViewport };

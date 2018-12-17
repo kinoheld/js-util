@@ -18,13 +18,13 @@ function addClass($elements = [], cssClassString = '', condition = true) {
     return;
   }
 
-  [...$list].forEach(($element) => {
+  [...$list].forEach($element => {
     if ($element && $element.nodeName) {
-      cssClasses.forEach((cssClass) => {
+      cssClasses.forEach(cssClass => {
         $element.classList.add(cssClass);
       });
     }
   });
 }
 
-export default addClass;
+export { addClass };

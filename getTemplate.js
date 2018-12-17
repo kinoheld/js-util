@@ -19,4 +19,4 @@ function getTemplate(templateId, imports = {}) {
   return template;
 }
 
-export default getTemplate;
+export { getTemplate };

@@ -31,4 +31,4 @@ function toggleClass($elements = [], cssClass = '', condition = undefined) {
   });
 }
 
-export default toggleClass;
+export { toggleClass };

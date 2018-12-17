@@ -18,4 +18,4 @@ function hasClass($element = null, cssClassString = '') {
   return found;
 }
 
-export default hasClass;
+export { hasClass };

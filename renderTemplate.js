@@ -18,4 +18,4 @@ function renderTemplate(template, params = {}) {
   return $renderedNode;
 }
 
-export default renderTemplate;
+export { renderTemplate };

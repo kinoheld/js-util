@@ -11,4 +11,4 @@ function debounce(func, wait = 0, options = {}) {
   return lodashDebounce(func, wait, options);
 }
 
-export default debounce;
+export { debounce };

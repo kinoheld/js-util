@@ -21,4 +21,4 @@ function getWeek(isoDay) {
   );
 }
 
-export default getWeek;
+export { getWeek };

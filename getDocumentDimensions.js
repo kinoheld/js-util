@@ -9,4 +9,4 @@ function getDocumentDimensions() {
   };
 }
 
-export default getDocumentDimensions;
+export { getDocumentDimensions };

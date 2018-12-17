@@ -7,4 +7,4 @@ function uniqueId() {
   return lodashUniqueId();
 }
 
-export default uniqueId;
+export { uniqueId };

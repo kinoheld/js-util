@@ -19,4 +19,4 @@ function getPosition($haystack, needle) {
   return index;
 }
 
-export default getPosition;
+export { getPosition };

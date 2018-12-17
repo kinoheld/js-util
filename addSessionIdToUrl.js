@@ -13,4 +13,4 @@ function addSessionIdToUrl(url, sessionId = '') {
   return url;
 }
 
-export default addSessionIdToUrl;
+export { addSessionIdToUrl };

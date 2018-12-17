@@ -46,4 +46,4 @@ function getWidgetParams(url) {
     }, {});
 }
 
-export default getWidgetParams;
+export { getWidgetParams };

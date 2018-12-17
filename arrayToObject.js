@@ -12,4 +12,4 @@ function arrayToObject(array, keyField) {
   }, {});
 }
 
-export default arrayToObject;
+export { arrayToObject };

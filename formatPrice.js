@@ -9,4 +9,4 @@ function formatPrice(value) {
     : '';
 }
 
-export default formatPrice;
+export { formatPrice };

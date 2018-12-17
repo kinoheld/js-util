@@ -19,4 +19,4 @@ function getClosest($element = null, query) {
   return $el;
 }
 
-export default getClosest;
+export { getClosest };

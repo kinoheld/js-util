@@ -11,4 +11,4 @@ function throttle(func, wait = 0, options = {}) {
   return lodashThrottle(func, wait, options);
 }
 
-export default throttle;
+export { throttle };

@@ -10,4 +10,4 @@ function getChild(query = '', $context = document) {
     : null;
 }
 
-export default getChild;
+export { getChild };

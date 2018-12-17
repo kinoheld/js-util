@@ -5,10 +5,11 @@
  * @return {Number}
  */
 function findPos($element) {
-  const bodyScrollTop = window.pageYOffset || document.documentElement.scrollTop;
+  const bodyScrollTop =
+    window.pageYOffset || document.documentElement.scrollTop;
   const elemRect = $element.getBoundingClientRect();
 
   return elemRect.top + bodyScrollTop;
 }
 
-export default findPos;
+export { findPos };

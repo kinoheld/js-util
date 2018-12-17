@@ -27,4 +27,4 @@ function removeClass($elements = [], cssClassString = '', condition = true) {
   });
 }
 
-export default removeClass;
+export { removeClass };

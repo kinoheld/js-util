@@ -19,4 +19,4 @@ function getParams(url) {
     }, {});
 }
 
-export default getParams;
+export { getParams };

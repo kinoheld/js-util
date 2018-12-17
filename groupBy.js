@@ -11,4 +11,4 @@ function groupBy(array, key) {
   }, {});
 }
 
-export default groupBy;
+export { groupBy };

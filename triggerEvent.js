@@ -9,4 +9,4 @@ function triggerEvent($element, eventName) {
   $element.dispatchEvent(fakeEvent);
 }
 
-export default triggerEvent;
+export { triggerEvent };

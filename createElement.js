@@ -20,4 +20,4 @@ function createElement(type, attributes = {}, content = '') {
   return $element;
 }
 
-export default createElement;
+export { createElement };

@@ -10,4 +10,4 @@ function escape(value) {
   return lodashEscape(value);
 }
 
-export default escape;
+export { escape };

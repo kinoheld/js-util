@@ -6,4 +6,4 @@ function getBodyHeight() {
   return document.body.offsetHeight;
 }
 
-export default getBodyHeight;
+export { getBodyHeight };
