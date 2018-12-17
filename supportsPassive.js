@@ -19,4 +19,4 @@ try {
   window.removeEventListener('testPassive', null, opts);
 } catch (e) {}
 
-export { supportsPassive };
+export default supportsPassive;
